@@ -28,25 +28,32 @@
       Portfolio
     </p>
 <div class="flex items-center gap-3 mt-15">
-    <button
+    <a href="#projs"
     class="cursor-pointer px-7 py-3 rounded-full bg-[#FFCC7A] text-[#3049AA] font-medium
            tracking-wide transition-all duration-300
            hover:bg-[#f5bd62] hover:-translate-y-1"
   >
     View My Work
-  </button>
+  </a>
 
   <!-- Secondary Button -->
-  <button
+  <a href="#about"
     class="cursor-pointer px-7 py-3 rounded-full border-2 border-[#FFCC7A] text-[#FFCC7A]
            font-medium tracking-wide transition-all duration-300
            hover:bg-[#FFCC7A] hover:text-white hover:-translate-y-1"
   >
     Contact Me
-  </button>
+  </a>
 
   </div>
   </div>
 
   
 </section>
+<div id="about">
+  <app-about/>
+</div>
+<div id="projs">
+  <app-gprojects/>
+</div>
+<app-experience/>

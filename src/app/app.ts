@@ -1,3 +1,4 @@
+import { Gprojects } from './components/gprojects/gprojects';
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Home } from './components/home/home';
@@ -6,7 +7,7 @@ import { Experience } from './components/experience/experience';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Home, About, Experience],
+  imports: [RouterOutlet, Home, About, Experience, Gprojects],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
